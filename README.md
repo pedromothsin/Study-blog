@@ -4,7 +4,7 @@ This is my Rails 7 project for studying:
 
 * Ruby version 3.0.0;
 
-* Rails version sqlite3;
+* Rails version 7.1.2;
 
 * Database sqlite3;
 
