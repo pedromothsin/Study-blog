@@ -12,8 +12,16 @@
   </head>
 
   <body>
-    <main class="container mx-auto mt-28 px-5 flex">
+    <header class="container mx-auto px-5">
+      <h1 class="text-3xl font-bold">Blog</h1>
+    </header>
+    <main class="container mx-auto mt-5 px-5 flex">
       <%= yield %>
     </main>
+    <footer class="container mx-auto px-5">
+      <p class="mt-5">
+        Our blog has <%= Article.public_count %> articles and counting!
+      </p>
+    </footer>
   </body>
 </html>

@@ -24,4 +24,12 @@ This is my Rails 7 project for studying:
 * Learn how to push to production a Rails project;
 * Learn how to use Tailwind;
 * Learn how the asset pipeline truly works;
+* Learn more in-depth about associations in models beyond `has_many` and `belongs_to`;
+* ...
+
+## Future ideas
+
+* Choose either AWS or Heroku for deploy;
+* Populate heavily the DB with either `seeds.db` or a script using the Faker gem;
+* Make it similar to Reddit, with "hot topics", notifications, watch system, user created forums etc..;
 * ...
