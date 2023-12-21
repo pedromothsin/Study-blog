@@ -1,0 +1,9 @@
+require:
+  - rubocop-rails
+  - rubocop-performance
+
+AllCops:
+  NewCops: enable
+
+Metrics/BlockLength:
+  Enabled: false
