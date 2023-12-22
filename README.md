@@ -25,6 +25,7 @@ This is my Rails 7 project for studying:
 * Learn how to use Tailwind;
 * Learn how the asset pipeline truly works;
 * Learn more in-depth about associations in models beyond `has_many` and `belongs_to`;
+* study more about Redis and see if it can be useful for this project;
 * ...
 
 ## Future ideas
@@ -32,4 +33,5 @@ This is my Rails 7 project for studying:
 * Choose either AWS or Heroku for deploy;
 * Populate heavily the DB with either `seeds.db` or a script using the Faker gem;
 * Make it similar to Reddit, with "hot topics", notifications, watch system, user created forums etc..;
+* Update the Ruby version to 3.2.2, RVM doesn't support it so i need to find another way of doing it;
 * ...
