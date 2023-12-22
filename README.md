@@ -2,7 +2,7 @@
 
 This is my Rails 7 project for studying:
 
-* Ruby version 3.0.0;
+* Ruby version 3.2.2;
 
 * Rails version 7.1.2;
 
@@ -33,5 +33,5 @@ This is my Rails 7 project for studying:
 * Choose either AWS or Heroku for deploy;
 * Populate heavily the DB with either `seeds.db` or a script using the Faker gem;
 * Make it similar to Reddit, with "hot topics", notifications, watch system, user created forums etc..;
-* Update the Ruby version to 3.2.2, RVM doesn't support it so i need to find another way of doing it;
+* ~~Update the Ruby version to 3.2.2, RVM doesn't support it so i need to find another way of doing it~~;
 * ...
