@@ -6,7 +6,7 @@ This is my Rails 7 project for studying:
 
 * Rails version 7.1.2;
 
-* Database sqlite3;
+* Database postgres;
 
 * View framework tailwind;
 
@@ -16,7 +16,7 @@ This is my Rails 7 project for studying:
 
 * Change the database to the latest postgresql version;
 * Implement Devise, OmniAuth and Pundit for the app security;
-* Create a layout to stick with for the remaining of this project.
+* Create a layout to stick with for the remaining of this project;
 * ...
 
 ## Things to study
