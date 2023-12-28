@@ -33,9 +33,7 @@ COPY Gemfile Gemfile.lock ./
 
 RUN bundle check || bundle install
 
-# RUN chmod +x ./docker/docker-entrypoint.sh
-# RUN chmod +x ./docker/sidekiq-entrypoint.sh
-# RUN chmod +x ./bin/*
+RUN gem install foreman
 
 COPY . ./
 

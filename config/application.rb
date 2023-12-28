@@ -11,6 +11,8 @@ module Blog
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.1
 
+    config.web_console.whiny_requests = false
+
     # Please, add to the `ignore` list any other `lib` subdirectories that do
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
     # Common ones are `templates`, `generators`, or `middleware`, for example.
@@ -23,5 +25,7 @@ module Blog
     #
     config.time_zone = 'Brasilia'
     # config.eager_load_paths << Rails.root.join("extras")
+
+    config.logger = ActiveSupport::Logger.new($stdout)
   end
 end
