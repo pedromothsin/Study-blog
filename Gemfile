@@ -19,6 +19,8 @@ gem 'ransack'
 
 gem 'pg', '~> 1.5.4'
 
+gem 'uri'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '>= 5.0'
 

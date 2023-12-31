@@ -22,6 +22,8 @@ services:
   database:
     image: postgres:16.1-alpine
     restart: always
+    ports:
+      - "5432:5432"
     env_file: .env
     environment:
       POSTGRES_USER: ${DATABASE_USER}
@@ -33,6 +35,8 @@ services:
 
   redis:
     image: redis:7.2.3-alpine
+    ports:
+      - "6379:6379"
 
   sidekiq:
     build:

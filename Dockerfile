@@ -29,11 +29,13 @@ RUN gem install bundler -v 2.5.3
 
 WORKDIR /app
 
+RUN gem update --system 3.5.3
+
+RUN gem install foreman
+
 COPY Gemfile Gemfile.lock ./
 
 RUN bundle check || bundle install
-
-RUN gem install foreman
 
 COPY . ./
 

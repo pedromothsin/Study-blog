@@ -273,6 +273,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.5.0)
     uniform_notifier (1.16.0)
+    uri (0.12.1)
     web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -316,6 +317,7 @@ DEPENDENCIES
   tailwindcss-rails
   turbo-rails
   tzinfo-data
+  uri
   web-console
 
 RUBY VERSION
