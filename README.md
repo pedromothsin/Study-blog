@@ -6,15 +6,15 @@ This is my Rails 7 project for studying:
 
 * Rails version 7.1.2;
 
-* Database postgres;
+* Database postgres 16.1;
 
 * View framework tailwind;
 
-* Start the server with `./bin/dev` to start both the Tailwind watch process and the rails server;
+* To initiate the server for the first time, run `docker-compose up --build`, for subsequent launches, run `docker-compose up`;
 
 ## To-Do list
 
-* Change the database to the latest postgresql version;
+* ~~Change the database to the latest postgresql version~~;
 * Implement Devise, OmniAuth and Pundit for the app security;
 * Create a layout to stick with for the remaining of this project;
 * ...
